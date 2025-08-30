@@ -118,17 +118,14 @@
 	@apply p-1 border border-[#1d3b53] bg-gray-50 dark:bg-[#0f2338] rounded-2xl dark:border-[#5F7E97];
 }
 
-.dark .fi-ta-ctn,
-.dark .fi-tenant-menu,
-.dark .fi-dropdown-panel {
-	background: linear-gradient(#011627, #011627);
-	background-clip: padding-box, border-box;
-	background-origin: border-box;
-}
-
 .fi-wi-stats-overview-stat,
 .fi-wi-table {
 	@apply shadow-none ring-0 dark:bg-[#0f2338] rounded-2xl;
+}
+
+.fi-wi-stats-overview .fi-section,
+.fi-wi-stats-overview .fi-sc-section {
+	@apply p-0 border-0 bg-transparent rounded-none;
 }
 
 .fi-wi-stats-overview-stat {
@@ -141,6 +138,14 @@
 
 .fi-wi-widget.fi-wi-table {
 	@apply p-0 border-0;
+}
+
+.dark .fi-ta-ctn,
+.dark .fi-tenant-menu,
+.dark .fi-dropdown-panel {
+	background: linear-gradient(#011627, #011627);
+	background-clip: padding-box, border-box;
+	background-origin: border-box;
 }
 
 .fi-topbar-item-active a,
