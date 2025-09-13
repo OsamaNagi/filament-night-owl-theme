@@ -39,11 +39,6 @@
 	@apply bg-primary-400;
 }
 
-/* .fi-sidebar-item-label,
-.fi-topbar-item-label {
-	@apply dark:text-gray-400;
-} */
-
 .fi-sidebar-item-active a svg,
 .fi-topbar-item-active a svg {
 	@apply text-primary-800;
@@ -95,11 +90,11 @@
 }
 
 .fi-body {
-	@apply bg-gray-50 dark:bg-nightowl-900; /* Night Owl backgrounds */
+	@apply bg-gray-50 dark:bg-nightowl-900;
 }
 
 .fi-input-wrp {
-	@apply ring-1 ring-gray-200 dark:ring-white/20; /* Night Owl light active selection */
+	@apply ring-1 ring-gray-200 dark:ring-white/20;
 }
 
 .fi-tabs-item-active {
@@ -158,11 +153,11 @@
 }
 
 .fi-fo-field-wrp-error-message {
-	@apply text-[#FF2C83] dark:text-[#FF6363]; /* Night Owl invalid construct */
+	@apply text-[#FF2C83] dark:text-[#FF6363];
 }
 
 .fi-invalid {
-	@apply ring-[#FF2C83] dark:ring-[#FF6363]; /* Night Owl invalid construct */
+	@apply ring-[#FF2C83] dark:ring-[#FF6363];
 }
 
 .fi-btn-group > .fi-btn:first-of-type {
@@ -172,14 +167,6 @@
 .fi-btn-group > .fi-btn:last-of-type {
 	@apply rounded-e-full;
 }
-
-/* .fi-header-actions-ctn > .fi-ac > a {
-	@apply dark:bg-primary-500 dark:hover:bg-primary-600 bg-primary-500 hover:bg-primary-600;
-} */
-
-/* .fi-ac-btn-action:first-child:not(.fi-color-danger) {
-	@apply dark:bg-primary-500 dark:hover:bg-primary-600 bg-primary-500 hover:bg-primary-600;
-} */
 
 .fi-global-search-result-group-header {
 	@apply bg-gray-50 dark:bg-[#0f2338];

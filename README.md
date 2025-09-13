@@ -12,13 +12,13 @@ Aesthetic Night Owl theme for FilamentPHP.
 You can install the package via composer:
 
 ```bash
-composer require nagi/filament-night-owl-theme
+composer require osamanagi/filament-night-owl-theme
 ```
 
 Add a new item to the `input` array of your `vite.config.js` file:
 
 ```js
-'vendor/nagi/filament-night-owl-theme/resources/css/theme.css';
+'vendor/osamanagi/filament-night-owl-theme/resources/css/theme.css';
 ```
 
 Run:
@@ -52,7 +52,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Osama Nagi](https://github.com/OsamaNagi)
+- [Osama osamanagi](https://github.com/osamanagi)
 - [All Contributors](../../contributors)
 
 ## License

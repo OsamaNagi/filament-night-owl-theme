@@ -58,7 +58,7 @@ class FilamentNightOwlThemePlugin implements Plugin
                 'success' => Color::hex('#00bba7'),
                 'warning' => Color::hex('#f0b100'),
             ])
-            ->viteTheme('vendor/nagi/filament-night-owl-theme/resources/css/theme.css');
+            ->viteTheme('vendor/osamanagi/filament-night-owl-theme/resources/css/theme.css');
     }
 
     public function boot(Panel $panel): void
